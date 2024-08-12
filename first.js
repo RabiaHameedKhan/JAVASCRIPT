@@ -1,5 +1,11 @@
 console.log("Javascript learning Day 1");
 
+
+
+//...........BASICS...................
+
+
+
 // TASK 1 : CREATE AN OBJECT
 // console.log("Task 1");
 
@@ -143,6 +149,88 @@ console.log("Javascript learning Day 1");
 
 // companies.push("amazon");
 // console.log(companies);
+
+
+//TASK:
+
+//Find square using for each function method
+
+// let array=[1,2,3,4,5];
+
+// array.forEach((num)=>{
+//     console.log(num**2);
+// });
+
+
+//MAP similar to forEach
+
+// let array=[1,2,3,4,5];
+
+// let newarray= array.map((val)=>{
+//     return (val);
+// })
+
+// console.log(newarray);
+
+// let newarray=array.map((val)=>{
+//     return val*2;
+// })
+// console.log(newarray);
+
+//FILTER
+
+// let array=[1,2,3,4,5,6,7,8,9,10];
+
+// newarray=array.filter((val)=>{
+//     return val%2==0;
+// })
+// console.log("Even numbers:", newarray);
+
+//RESULT
+
+// let array=[1,2,3,4,5];
+
+// output=array.reduce((result, current)=>{
+//     return result+current;
+// })
+// console.log(output);
+
+//FINDING LARGest numBER
+
+// output=array.reduce((result,current)=>{
+//     return result>current? result:current;
+// })
+// console.log(output);
+
+
+//TASK
+
+//filter out marks of array
+
+// let array=[10,20,30,40,50];
+
+// result=array.filter((val)=>{
+//     return val>45;
+// })
+// console.log(result);
+
+//TASK
+
+// let n = prompt("Enter a number");
+// let array = [];
+// for (let i = 1; i <= n; i++) {
+//     let value = prompt("Enter a value for the array");
+//     array.push(Number(value));  
+//     console.log(array);
+// }
+
+// let newarray = array.reduce((result, current) => {
+//     return result + current;
+// });  
+
+// console.log(newarray);
+
+
 
 
 
