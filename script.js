@@ -27,11 +27,33 @@
 
 //TASK
 
-let button=document.createElement("button");
-button.innerText="click here";
-button.style.backgroundColor="red";
-button.style.color="white";
-aces= document.querySelector("body");
-console.log(aces);
+// let button=document.createElement("button");
+// button.innerText="click here";
+// button.style.backgroundColor="red";
+// button.style.color="white";
+// aces= document.querySelector("body");
+// console.log(aces);
 
-aces.prepend(button);
+// aces.prepend(button);
+
+let btn = document.querySelector("button");
+
+let curent = "light";
+
+let heading=document.querySelector("h1");
+
+btn.addEventListener("click", () => {
+    if (curent == "light") {
+        curent = "dark";
+        document.querySelector("body").style.backgroundColor = "black";
+        heading.style.color="white";
+    } else {
+        curent = "light";
+        document.querySelector("body").style.backgroundColor = "white";
+        heading.style.color="Black";
+    }
+
+    console.log(curent);
+
+
+});
