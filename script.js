@@ -36,24 +36,24 @@
 
 // aces.prepend(button);
 
-let btn = document.querySelector("button");
+// let btn = document.querySelector("button");
 
-let curent = "light";
+// let curent = "light";
 
-let heading=document.querySelector("h1");
+// let heading=document.querySelector("h1");
 
-btn.addEventListener("click", () => {
-    if (curent == "light") {
-        curent = "dark";
-        document.querySelector("body").style.backgroundColor = "black";
-        heading.style.color="white";
-    } else {
-        curent = "light";
-        document.querySelector("body").style.backgroundColor = "white";
-        heading.style.color="Black";
-    }
+// btn.addEventListener("click", () => {
+//     if (curent == "light") {
+//         curent = "dark";
+//         document.querySelector("body").style.backgroundColor = "black";
+//         heading.style.color="white";
+//     } else {
+//         curent = "light";
+//         document.querySelector("body").style.backgroundColor = "white";
+//         heading.style.color="Black";
+//     }
 
-    console.log(curent);
+//     console.log(curent);
 
 
-});
+// });
